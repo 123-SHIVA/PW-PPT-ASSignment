@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000000;
+    color: #fff;
+}
+
+.table-container{
+    width: 70%;
+    margin: 100px auto;
+}
+
+.table-container h2{
+    margin: 50px 0;
+}
+.table{
+    text-align: left;
+    width: 100%;
+    
+}
+
+table,tr{
+    border: 1px solid #fff;
+    border-collapse: collapse;
+}
+
+th,td{
+    width: 33%;
+    padding: 7px;
+}
+
+
+/* ----------media query -------------- */
+
+@media screen and (max-width:768px)
+{
+    .table tr th:nth-child(3),td:nth-child(3){
+        display: none;
+    }
+}
